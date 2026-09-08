@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohanraj S - B.Tech Information Technology portfolio">
+  <title>Mohanraj S | IT Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a href="#home" class="logo">M<span>S</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">B.TECH INFORMATION TECHNOLOGY</p>
+          <h1>Hi, I'm <span>Mohanraj S</span></h1>
+          <h2>Software Developer &amp; IT Graduate</h2>
+          <p class="hero-text">I build practical, user-focused applications with modern web technologies, programming, databases and machine learning.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Raj0734" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/mohanraj-s-8122262a4" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:rajmohankd22102003@gmail.com">Email</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="orb"></div>
+          <div class="profile-photo">
+            <img src="photo.jpg" alt="Mohanraj S - Profile Photo">
+          </div>
+          <div class="code-window">
+            <div class="window-bar"><i></i><i></i><i></i><span>developer.js</span></div>
+            <pre><code><span class="kw">const</span> developer = {
+  name: <span class="str">"Mohanraj S"</span>,
+  degree: <span class="str">"B.Tech IT"</span>,
+  focus: [
+    <span class="str">"Software Development"</span>,
+    <span class="str">"Web Development"</span>,
+    <span class="str">"Machine Learning"</span>
+  ],
+  mindset: <span class="str">"Keep learning"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">TECHNICAL SKILLS</p>
+          <h2>My <span>toolbox.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon">&lt;/&gt;</div><h3>Programming</h3><p>Python · Java · C</p><div class="bar"><i style="width:88%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">WEB</div><h3>Web Development</h3><p>HTML · CSS · JavaScript · React</p><div class="bar"><i style="width:86%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">SQL</div><h3>Database</h3><p>SQL · Database fundamentals</p><div class="bar"><i style="width:80%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">ML</div><h3>AI &amp; Machine Learning</h3><p>MFCC · CNN · LSTM · KNN</p><div class="bar"><i style="width:76%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">☁</div><h3>Cloud &amp; Tools</h3><p>AWS · Azure · Docker · Git</p><div class="bar"><i style="width:72%"></i></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">UI</div><h3>Other Technologies</h3><p>Node.js · PHP · GraphQL · Axios</p><div class="bar"><i style="width:74%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">FEATURED PROJECTS</p>
+          <h2>Things I've <span>built.</span></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-top"><span class="project-num">01</span><span>Python · ML</span></div>
+            <h3>Currency Price Prediction &amp; Historical Data Visualization</h3>
+            <p>A Python-based project focused on analysing historical currency data, visualising trends and exploring prediction techniques.</p>
+            <div class="tags"><span>Python</span><span>Data Visualization</span><span>Prediction</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-num">02</span><span>AI · ML</span></div>
+            <h3>Parkinson's Disease Diagnosis</h3>
+            <p>Voice-based diagnosis concept using MFCC feature extraction and CNN techniques for machine-learning analysis.</p>
+            <div class="tags"><span>MFCC</span><span>CNN</span><span>Python</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-num">03</span><span>Python</span></div>
+            <h3>Weather &amp; Crop Prediction System</h3>
+            <p>A prediction-oriented application designed to connect weather information with agricultural decision support.</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>Data</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-num">04</span><span>Web</span></div>
+            <h3>Microblogging Frontend Application</h3>
+            <p>A responsive frontend concept for creating, viewing and interacting with short-form posts.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-num">05</span><span>Python</span></div>
+            <h3>Complaint Management System</h3>
+            <p>An application concept for recording, tracking and managing complaints in a structured workflow.</p>
+            <div class="tags"><span>Python</span><span>Database</span><span>CRUD</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-num">06</span><span>Frontend</span></div>
+            <h3>Air Quality Predictor</h3>
+            <p>A clean web interface concept for presenting air-quality prediction information to users.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>My <span>academic journey.</span></h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div><p class="time">B.TECH / INFORMATION TECHNOLOGY</p><h3>Information Technology</h3><p>Completed a Bachelor of Technology in Information Technology, building a foundation in programming, databases, software development and emerging technologies.</p><span class="pill">Graduate</span></div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div><p class="time">CONTINUOUS LEARNING</p><h3>Projects &amp; Technical Practice</h3><p>Hands-on learning through web development, Python, machine learning, databases and software projects.</p><span class="pill">Always Learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">RESUME</p>
+          <h2>My professional <span>background.</span></h2>
+        </div>
+        <div class="resume-box reveal">
+          <p>Download my resume to see my complete professional profile, work experience, education and technical skills.</p>
+          <a class="btn primary" href="resume.pdf" download="Mohanraj_S_Resume.pdf">Download Resume <span>↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div class="container cta-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Ready to build something <span>useful.</span></h2>
+        <p>I'm open to entry-level software, IT and development opportunities.</p>
+        <a class="btn primary" href="#contact">Let's Talk <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's start a <span>conversation.</span></h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>Have an opportunity, project or question? Send me a message.</p>
+            <a href="mailto:rajmohankd22102003@gmail.com" class="contact-link"><span>✉</span> rajmohankd22102003@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mohanraj-s-8122262a4" target="_blank" rel="noopener" class="contact-link"><span>in</span> LinkedIn</a>
+            <a href="https://github.com/Raj0734" target="_blank" rel="noopener" class="contact-link"><span>⌘</span> GitHub</a>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your email" required>
+            <textarea id="message" rows="6" placeholder="Your message" required></textarea>
+            <button class="btn primary" type="submit">Send Message <span>↗</span></button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Turning ideas into <span>working solutions.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <img src="photo.jpg" alt="Mohanraj S - Professional Photo">
+          </div>
+          <div class="about-text reveal">
+            <p>I am a B.Tech Information Technology graduate with an interest in software development, web applications, databases and emerging technologies.</p>
+            <p>I enjoy learning by building projects and solving practical problems. My project experience includes prediction systems, healthcare-focused machine learning, management applications and frontend development.</p>
+            <p>I am currently looking for opportunities where I can contribute to a team, strengthen my technical skills and grow as a software professional.</p>
+            <div class="stats">
+              <div><strong>B.Tech</strong><small>IT Graduate</small></div>
+              <div><strong>5+</strong><small>Projects</small></div>
+              <div><strong>10+</strong><small>Technologies</small></div>
+            </div>
+          </div>
+          <div class="about-panel reveal">
+            <div class="mini-card"><span>01</span><div><b>Problem Solver</b><small>Break problems into simple, practical solutions.</small></div></div>
+            <div class="mini-card"><span>02</span><div><b>Continuous Learner</b><small>Always improving through projects and practice.</small></div></div>
+            <div class="mini-card"><span>03</span><div><b>Team Mindset</b><small>Communicate, collaborate and deliver together.</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">M<span>S</span></a>
+      <p>© <span id="year"></span> Mohanraj S. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
